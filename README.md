@@ -2,7 +2,7 @@
 - Create react app
 - configured tailwind css
 - Header done
-- Login
+- Sign in/Sign up page done.
 
 # Features
 - Login/Sign Up(Before AUthentication)
