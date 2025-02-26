@@ -7,9 +7,12 @@
 - Form Validation
 - use Ref hook
 - Firebase setup
-- Deploying App to Production
+- Deploying App to Production with Firebase
 - Create SignUp User Account
 - Login with the Signed User Details
+- Created a userSlice redux store
+- Implemented SignOut feature
+- Updated Profile api
 
 
 # Features
