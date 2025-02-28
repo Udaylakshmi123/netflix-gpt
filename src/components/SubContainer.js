@@ -4,7 +4,7 @@ import MovieList from "./MovieList";
 const SubContainer = ()=>{
     const movies = useSelector(store=>store?.movies);
     return (<div className="bg-black">
-        <div className="relative z-20 pl-12 -mt-52">
+        <div className="relative z-20 pl-12 -mt-80">
         < MovieList title={"NOW Playing"} movies={movies.nowPlayingMovies}/>
         < MovieList title={"Popular"} movies={movies.popularMovies}/>
         < MovieList title={"Top Rated"} movies={movies.topRatedMovies}/>
