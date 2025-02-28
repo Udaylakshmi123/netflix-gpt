@@ -2,6 +2,8 @@ export const NETFLIX_LOGO = "https://help.nflxext.com/helpcenter/OneTrust/oneTru
 
 export const USER_AVATAR = "https://th.bing.com/th/id/OIP.kYYbdJhBIh1SEi8MKTPYpgHaHa?w=164&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7";
 
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";
+
 export const API_OPTIONS = {
     method: 'GET',
     headers: {
