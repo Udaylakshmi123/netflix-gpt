@@ -4,9 +4,9 @@ import {NETFLIX_BG_IMG} from "../utils/constants";
 
 const GPTSearchComponent = () => {
   return (
-    <div>
+    <div className="bg-black bg-opacity-50 h-screen">
         <div className="absolute -z-10">
-        <img
+        <img className="h-screen w-screen"
           src={NETFLIX_BG_IMG}
           alt="logo" />
       </div>

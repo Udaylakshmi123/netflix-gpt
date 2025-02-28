@@ -6,11 +6,14 @@ export const USER_AVATAR = "https://th.bing.com/th/id/OIP.kYYbdJhBIh1SEi8MKTPYpg
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";
 
+// this process env means keeping our security code in env file
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+
 export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5NzhjYmM3Y2FkZWE4OTliN2NiYTliZmEyNGUyYWNkMCIsIm5iZiI6MTc0MDU1MzA4OC43MSwic3ViIjoiNjdiZWJiODBhNzk2ZTk0NjhlZWZhOTczIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.HQErQxwnqI8u7atSewoiGrgz-KcEOSC_flF3_XcpGUY'
+      Authorization: 'Bearer'+ process.env.REACT_APP_TMDB_KEY
     }
 };
 
