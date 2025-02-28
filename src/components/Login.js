@@ -5,7 +5,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfi
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser} from "../utils/userSlice";
-import { USER_AVATAR } from "../utils/constants";
+import { USER_AVATAR,NETFLIX_BG_IMG } from "../utils/constants";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -66,7 +66,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/0cf2c109-3af1-4a9d-87d7-aecfac5fe881/web/AU-en-20250217-TRIFECTA-perspective_1820115a-706f-4b78-96db-4da6961758eb_large.jpg"
+          src={NETFLIX_BG_IMG}
           alt="logo" />
       </div>
       <form onSubmit={(e) => e.preventDefault()}
